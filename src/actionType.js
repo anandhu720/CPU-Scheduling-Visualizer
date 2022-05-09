@@ -1,0 +1,3 @@
+export const INPUTS_REQUEST = 'INPUTS_REQUEST';
+export const INPUTS_SUCCESS = 'INPUTS_SUCCESS';
+export const INPUTS_FAIL = 'INPUTS_FAIL';
