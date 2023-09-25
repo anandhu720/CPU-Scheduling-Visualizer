@@ -13,4 +13,4 @@ jobs:
     permissions: read-all
     steps:
       - name: Test
-        run: echo "${{ github.event }}"
+        run: echo "${{ toJSON(github.event) }}" | jq
